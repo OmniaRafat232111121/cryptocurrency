@@ -1,5 +1,5 @@
 import React from 'react'
-import mill
+impo
 const Cryptocurrencies = () => {
   return (
     <div>
