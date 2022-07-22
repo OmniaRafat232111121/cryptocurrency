@@ -13,22 +13,11 @@ const Cryptocurrencies = () => {
   return (
     <>
     <Row  gutters={[32,32]} className="crypto-card-container">
-    {cryptos.map((currency)=>(
-      <Col xs={24} sm={12} lg={6} className="crypto-card" key={current.id}>
-        <Link to={`/crypto/${currency.id}`}>
-        <card
-        title={`${currency.rank} .${currency.name}`}>
-        extra={<img className="crypto-img" src={currency.iconUrl} />
-        hoverable
-        >
-        }
-        </card>
-
-
-        </Link>
+    {cryptos.map((current)=>{
+      <Col xs={24} sm={12}>
 
       </Col>
-  ))}
+    })}
     </Row>
     </>
   )
