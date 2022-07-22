@@ -2,8 +2,7 @@ import React from 'react'
 
 const Cryptocurrencies = () => {
   return (
-    <div>
-    </div>
+    <div>Cryptocurrencies</div>
   )
 }
 
