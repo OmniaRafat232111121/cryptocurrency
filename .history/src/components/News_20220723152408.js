@@ -1,9 +1,7 @@
 import React from 'react'
 import {Select,Typography,Row,Col,Avatar,Card} from 'antd'
 import moment from 'moment'
-import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi'
-const {Text,Title} =Typography;
-const {Option}=Select;
+import { useGetCryptoQuery } from '../services/cryptoApi'
 const News = () => {
   return (
     <div>
