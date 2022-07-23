@@ -1,5 +1,5 @@
 import React from 'react'
-import
+imp
 const News = () => {
   return (
     <div>News</div>

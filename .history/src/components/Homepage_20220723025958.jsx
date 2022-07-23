@@ -40,7 +40,7 @@ const Homepage = () => {
     
       <News simplified />
     </>
-
+  
   );
 };
 
