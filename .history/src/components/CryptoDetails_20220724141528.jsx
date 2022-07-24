@@ -38,17 +38,7 @@ const CryptoDetails = () => {
   </Title>
   <p>{cryptoDetails.name} live price in US Dollar (USD). View value statistics, market cap and supply.</p>
     </Col>
-    <Select 
-    defaultValue="7d" 
-    className="select-timeperiod" 
-    placeholder="select time Period"
-    onChange={(value)=>setTimeperiod(value)}>
-
-    {time.map((date) => <Option key={date}>{date}</Option>)}
-    </Select>
-
-
-
+    <
     </Col>
   )
 }

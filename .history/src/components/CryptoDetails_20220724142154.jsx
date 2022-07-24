@@ -46,9 +46,6 @@ const CryptoDetails = () => {
 
     {time.map((date) => <Option key={date}>{date}</Option>)}
     </Select>
-
-
-
     </Col>
   )
 }

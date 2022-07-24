@@ -44,11 +44,8 @@ const CryptoDetails = () => {
     placeholder="select time Period"
     onChange={(value)=>setTimeperiod(value)}>
 
-    {time.map((date) => <Option key={date}>{date}</Option>)}
+    {time.map((dat))}
     </Select>
-
-
-
     </Col>
   )
 }
