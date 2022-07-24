@@ -31,13 +31,13 @@ const CryptoDetails = () => {
     { title: 'Circulating Supply', value: `$ ${cryptoDetails?.supply?.circulating && millify(cryptoDetails?.supply?.circulating)}`, icon: <ExclamationCircleOutlined /> },
   ];
   return (
-    <Col className="coin-detail-ontainer">
-    <Col className="coin-heading-container">
-    <Title level={2} className="coin-name">
-    {data?.data?.coin.name} ({data?.data?.coin.symbol}) Price
-  </Title>
-  <p>{cryptoDetails.name} live price in US Dollar (USD). View value statistics, market cap and supply.</p>
-    </Col>
+  <Col className="coin-detail-container">
+      <Col className="coin-heading-container">
+        <Title level={2} className="coin-name">
+          {data?.data?.coin.name} ({data?.data?.coin.symbol}) Price
+        </Title>
+        <p>{cryptoDetails.name} live price in US Dollar (USD). View value statistics, market cap and supply.</p>
+      </Col>
     </Col>
   )
 }
