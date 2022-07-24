@@ -1,2 +1,2 @@
 
-cryptoappcoin.netlify.app
+https://cryptoappcoin.netlify.app/
